@@ -33,7 +33,7 @@ IPVPS=$(curl -s ipinfo.io/ip )
 	echo -e " $op ║ \e[032;1mCity:\e[0m$bd $CITY"
 	echo -e " $op ║ \e[032;1mTime:\e[0m$bd $WKT                                        ╥"
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
-echo -e  "  ║                       ┃MENU OPTIONS┃                       ║ \e[m" |lolcat
+echo -e  "  ║                       ┃ MENU OPTIONS ┃                      ║ \e[m" |lolcat
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
 echo -e  " \e[32;1m ║\e[m$bd 1$bl]\e[m$bd SSH & OpenVPN Menu                                      ╨"
 echo -e  " $gl ║\e[m$bd 2$bl]\e[m$bd Panel Wireguard "
@@ -45,36 +45,34 @@ echo -e  " $bl ║\e[m$bd 7$bl]\e[m$bd Panel VLess"
 echo -e  " $bl ║\e[m$bd 8$bl]\e[m$bd Panel TRojanGO"
 echo -e  " $bl ║\e[m$bd 9$bl]\e[m$bd Panel TrojanGFW                                         ╥"
 echo -e   "  \e[1;32m╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
-echo -e   "  ║                       ┃SYSTEM MENU┃                        ║\e[m" | lolcat 
+echo -e   "  ║                       ┃ SYSTEM MENU ┃                       ║\e[m" | lolcat 
 echo -e   "  \e[1;32m╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
-echo -e   " $mg ║\e[m$bd 10$bl]\e[m$bd Add Subdomain Host For VPS                             ╨"
-echo -e   " $mg ║\e[m$bd 11$bl]\e[m$bd Renew Certificate V2RAY"
-echo -e   " $mg ║\e[m$bd 12$bl]\e[m$bd Change Port All Account"
-echo -e   " $mg ║\e[m$bd 13$bl]\e[m$bd Autobackup Data VPS"
-echo -e   " $mg ║\e[m$bd 14$bl]\e[m$bd Backup Data VPS"
-echo -e   " $mg ║\e[m$bd 15$bl]\e[m$bd Restore Data VPS"
-echo -e   " $gl ║\e[m$bd 16$bl]\e[m$bd Webmin Menu"
-echo -e   " $gl ║\e[m$bd 17$bl]\e[m$bd Limit Bandwith Speed Server"
-echo -e   " $gl ║\e[m$bd 18$bl]\e[m$bd Check Usage of VPS Ram" 
-echo -e   " $gl ║\e[m$bd 19$bl]\e[m$bd Reboot VPS"
-echo -e   " $gl ║\e[m$bd 20$bl]\e[m$bd Speedtest VPS"
-echo -e   " $gl ║\e[m$bd 21$bl]\e[m$bd Information Display System" 
-echo -e   " $gl ║\e[m$bd 22$bl]\e[m$bd Info Script Auto Install"
-echo -e   " $gl ║\e[m$bd 23$bl]\e[m$bd Install BBR"
-echo -e   " $bl ║\e[m$bd 24$bl]\e[m$bd Set Auto Reboot"
-echo -e   " $bl ║\e[m$bd 25$bl]\e[m$bd Status Tunneling"
-echo -e   " $bl ║\e[m$bd 26$bl]\e[m$bd Clear Log"
-echo -e   " $bl ║\e[m$bd 27$bl]\e[m$bd Restart All Service"
-echo -e   " $bl ║\e[m$bd 28$bl]\e[m$bd Add ID Cloudflare"
-echo -e   " $bl ║\e[m$bd 29$bl]\e[m$bd Cloudflare Add-Ons" 
-echo -e   " $bl ║\e[m$bd 30$bl]\e[m$bd Pointing BUG"
-echo -e   " $bl ║\e[m$bd 31$bl]\e[m$bd Change Banner"
-echo -e   " $bl ║\e[m$bd 32$bl]\e[m$bd Update To Last Version                                 ╥"
+echo -e   " $mg ║\e[m$bd 10$bl]\e[m$bd Panel Domain"
+echo -e   " $mg ║\e[m$bd 11$bl]\e[m$bd Change Port All Account"
+echo -e   " $mg ║\e[m$bd 12$bl]\e[m$bd Autobackup Data VPS"
+echo -e   " $mg ║\e[m$bd 13$bl]\e[m$bd Backup Data VPS"
+echo -e   " $mg ║\e[m$bd 14$bl]\e[m$bd Restore Data VPS"
+echo -e   " $gl ║\e[m$bd 15$bl]\e[m$bd Webmin Menu"
+echo -e   " $gl ║\e[m$bd 16$bl]\e[m$bd Limit Bandwith Speed Server"
+echo -e   " $gl ║\e[m$bd 17$bl]\e[m$bd Check Usage of VPS Ram" 
+echo -e   " $gl ║\e[m$bd 18$bl]\e[m$bd Reboot VPS"
+echo -e   " $gl ║\e[m$bd 19$bl]\e[m$bd Speedtest VPS"
+echo -e   " $gl ║\e[m$bd 20$bl]\e[m$bd Information Display System" 
+echo -e   " $gl ║\e[m$bd 21$bl]\e[m$bd Info Script Auto Install"
+echo -e   " $gl ║\e[m$bd 22$bl]\e[m$bd Install BBR"
+echo -e   " $bl ║\e[m$bd 23$bl]\e[m$bd Set Auto Reboot"
+echo -e   " $bl ║\e[m$bd 24$bl]\e[m$bd Status Tunneling"
+echo -e   " $bl ║\e[m$bd 25$bl]\e[m$bd Clear Log"
+echo -e   " $bl ║\e[m$bd 26$bl]\e[m$bd Restart All Service"
+echo -e   " $bl ║\e[m$bd 27$bl]\e[m$bd Change Banner"
+echo -e   " $bl ║\e[m$bd 28$bl]\e[m$bd Cek Bandwith"
+echo -e   " $bl ║\e[m$bd 29$bl]\e[m$bd Reset Server"
+echo -e   " $bl ║\e[m$bd 30$bl]\e[m$bd Update To Last Version                                 ╥"
 echo -e   "  \e[1;32m╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
 echo -e   "  ║ x)   Exit                                                  ║\e[m" | lolcat
 echo -e   "  \e[1;32m╚════════════════════════════════════════════════════════════╝\e[m" | lolcat
 echo -e   ""
-read -p "     Select From Options [1-32 or x] :  " menu
+read -p "     Select From Options [1-30 or x] :  " menu
 echo -e   ""
 case $menu in
 1)
@@ -105,72 +103,66 @@ trojanGO
 trojaan
 ;;
 10)
-add-host
+panel-domain
 ;;
 11)
-certv2ray
-;;
-12)
 change-port
 ;;
-13)
+12)
 autobackup
 ;;
-14)
+13)
 backup
 ;;
-15)
+14)
 restore
 ;;
-16)
+15)
 wbmn
 ;;
-17)
+16)
 limit-speed
 ;;
-18)
+17)
 ram
 ;;
-19)
+18)
 reboot
 ;;
-20)
+19)
 speedtest
 ;;
-21)
+20)
 info
 ;;
-22)
+21)
 about
 ;;
-23)
+22)
 bbr
 ;;
-24)
+23)
 auto-reboot
 ;;
-25)
+24)
 running
 ;;
-26)
+25)
 clear-log
 ;;
-27)
+26)
 restart
 ;;
-28)
-cff
-;;
-29)
-cfd
-;;
-30)
-cfh
-;;
-31)
+27)
 nano /etc/issue.net
 ;;
-32)
+28)
+bw
+;;
+29)
+resett
+;;
+30)
 update
 ;;
 x)
