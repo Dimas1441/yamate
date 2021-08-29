@@ -96,10 +96,13 @@ wget -O renew-ss "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/rene
 wget -O add-ssr "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/add-ssr.sh"
 wget -O del-ssr "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/del-ssr.sh"
 wget -O renew-ssr "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/renew-ssr.sh"
-Wget -O add-wg "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/add-wg.sh"
+wget -O add-wg "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/add-wg.sh"
 wget -O del-wg "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/del-wg.sh"
 wget -O cek-wg "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/cek-wg.sh"
 wget -O renew-wg "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/renew-wg.sh"
+wget -O bw "https://raw.githubusercontent.com/Dimas1441/yamate/main/2/bw.sh"
+wget -O panel-domain "https://raw.githubusercontent.com/Dimas1441/yamate/main/2/panel-domain.sh"
+wget -O resett "https://raw.githubusercontent.com/Dimas1441/yamate/main/2/resett.sh"
 
 chmod +x menu
 chmod +x l2tp
@@ -184,7 +187,9 @@ chmod +x add-wg
 chmod +x del-wg
 chmod +x cek-wg
 chmod +x renew-wg
-
+chmod +x bw
+chmod +x panel-domain
+chmod +x resett
 sed -i -e 's/\r$//' add-l2tp
 
 echo " Successfully Update :"
