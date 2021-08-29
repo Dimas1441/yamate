@@ -168,7 +168,7 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rsyslog iftop htop net-tools zip unzip wget net-tools curl nano sed screen gnupg gnupg1 bc apt-transport-https build-essential dirmngr libxml-parser-perl neofetch git lsof
 echo "clear" >> .profile
 echo "neofetch" >> .profile
-echo "echo Script Premium By Brody Network" >> .profile
+echo "echo Script Premium By Brody " >> .profile
 echo "echo Silahkan Ketik Menu Untuk Melihat daftar Perintah" >> .profile
 
 # install webserver
@@ -368,7 +368,7 @@ wget -O clear-log "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/cle
 wget -O change-port "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/change.sh"
 wget -O port-ovpn "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/port-ovpn.sh"
 wget -O port-ssl "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/port-ssl.sh"
-wget -O port-wg "https://raw.githubusercontent.com/SSHSEDANG4/sshsedang/main/kota/ipvps"
+wget -O port-wg "https://raw.githubusercontent.com/Dimas1441/yamate/main/2/ipvps"
 wget -O port-tr "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/port-tr.sh"
 wget -O port-sstp "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/port-sstp.sh"
 wget -O port-squid "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/port-squid.sh"
@@ -380,7 +380,7 @@ wget -O swap "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/swapkvm.
 wget -O user-limit "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/user-limit.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/auto-reboot.sh"
 wget -O running "https://raw.githubusercontent.com/Dimas1441/yamate/main/3/running.sh"
-wget -O update "https://raw.githubusercontent.com/SSHSEDANG4/sshsedang/main/kota/update.sh"
+wget -O update "https://raw.githubusercontent.com/Dimas1441/yamate/main/2/update.sh"
 wget -O cfd "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/cfd.sh"
 wget -O cff "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/cff.sh"
 wget -O cfh "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/cfh.sh"
