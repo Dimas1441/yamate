@@ -67,12 +67,13 @@ echo -e   " $bl ║\e[m$bd 26$bl]\e[m$bd Restart All Service"
 echo -e   " $bl ║\e[m$bd 27$bl]\e[m$bd Change Banner"
 echo -e   " $bl ║\e[m$bd 28$bl]\e[m$bd Cek Bandwith"
 echo -e   " $bl ║\e[m$bd 29$bl]\e[m$bd Reset Server"
-echo -e   " $bl ║\e[m$bd 30$bl]\e[m$bd Update To Last Version                                 ╥"
+echo -e   " $bl ║\e[m$bd 30$bl]\e[m$bd Swap KVM"
+echo -e   " $bl ║\e[m$bd 31$bl]\e[m$bd Update To Last Version                                 ╥"
 echo -e   "  \e[1;32m╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
 echo -e   "  ║ x)   Exit                                                  ║\e[m" | lolcat
 echo -e   "  \e[1;32m╚════════════════════════════════════════════════════════════╝\e[m" | lolcat
 echo -e   ""
-read -p "     Select From Options [1-30 or x] :  " menu
+read -p "     Select From Options [1-31 or x] :  " menu
 echo -e   ""
 case $menu in
 1)
@@ -163,6 +164,9 @@ bw
 resett
 ;;
 30)
+swap
+;;
+31)
 update
 ;;
 x)
