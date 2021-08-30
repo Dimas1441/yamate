@@ -34,7 +34,8 @@ wget https://raw.githubusercontent.com/Dimas1441/yamate/main/1/ipsec.sh && chmod
 wget https://raw.githubusercontent.com/Dimas1441/yamate/main/1/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 #install trojan-go
 wget https://raw.githubusercontent.com/Dimas1441/yamate/main/3/ins-trojango.sh && dos2unix ins-trojango.sh && chmod +x ins-trojango.sh && ./ins-trojango.sh
-
+#log
+wget https://raw.githubusercontent.com/Dimas1441/yamate/main/2/log.sh && dos2unix log.sh && chmod +x log.sh && ./log.sh
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
 rm -f /root/ss.sh
@@ -44,6 +45,7 @@ rm -f /root/ins-vt.sh
 rm -f /root/ipsec.sh
 rm -f /root/set-br.sh
 rm -f /root/ins-trojango.sh
+rm -f /root/log.sh
 
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
