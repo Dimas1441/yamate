@@ -1,3 +1,6 @@
+#!/bin/bash
+
+echo ""
 echo "===============================-{ Autoscript Premium }-=========================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "--------------------------------------------------------------------------------" | tee -a log-install.txt
