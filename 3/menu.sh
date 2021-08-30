@@ -103,7 +103,7 @@ trojanGO
 trojaan
 ;;
 10)
-panel-domain
+domain
 ;;
 11)
 change-port
