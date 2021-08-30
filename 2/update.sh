@@ -101,7 +101,7 @@ wget -O del-wg "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/del-wg
 wget -O cek-wg "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/cek-wg.sh"
 wget -O renew-wg "https://raw.githubusercontent.com/Dimas1441/yamate/main/1/renew-wg.sh"
 wget -O bw "https://raw.githubusercontent.com/Dimas1441/yamate/main/2/bw.sh"
-wget -O domain "https://raw.githubusercontent.com/Dimas1441/yamate/main/2/domain.sh"
+wget -O panel-domain "https://raw.githubusercontent.com/Dimas1441/yamate/main/2/panel-domain.sh"
 wget -O resett "https://raw.githubusercontent.com/Dimas1441/yamate/main/2/resett.sh"
 
 chmod +x menu
@@ -188,7 +188,7 @@ chmod +x del-wg
 chmod +x cek-wg
 chmod +x renew-wg
 chmod +x bw
-chmod +x domain
+chmod +x panel-domain
 chmod +x resett
 sed -i -e 's/\r$//' add-l2tp
 
