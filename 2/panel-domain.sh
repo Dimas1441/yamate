@@ -21,7 +21,7 @@ echo -e "\e[1;32m═════════════════════
 echo -e " x)   MENU        \e[m" | lolcat
 echo -e "\e[1;32m══════════════════════════════════════════\e[m" | lolcat
 echo -e ""
-read -p "     Please Input Number  [1-4 or x] :  "  panel-domain
+read -p "     Please Input Number  [1-5 or x] :  "  panel-domain
 echo -e ""
 case $panel-domain in
 1)
@@ -38,6 +38,7 @@ cfh
 ;;
 5)
 certv2ray
+;;
 x)
 exit
 ;;
